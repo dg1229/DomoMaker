@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 const handleError = (message) => {
     $("#errorMessage").text(message);
     $("#domoMessage").animate({width:'toggle'},350);

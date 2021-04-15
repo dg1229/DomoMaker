@@ -150,9 +150,6 @@ $(document).ready(function () {
 });
 "use strict";
 
-var _require = require("express"),
-    response = _require.response;
-
 var handleError = function handleError(message) {
   $("#errorMessage").text(message);
   $("#domoMessage").animate({
